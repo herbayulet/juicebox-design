@@ -9,7 +9,7 @@ Slicing design: React + TypeScript + Vite — onboarding flow desain untuk Juice
 ## Instalasi
 1. Clone repo dan masuk ke folder:
    ```bash
-   cd /home/herbayulet/learn/juicebox-design
+   git clone https://github.com/herbayulet/juicebox-design.git
    npm install
    ```
 2. (Jika muncul error `Cannot find module '@hookform/resolvers/zod'`) jalankan:
