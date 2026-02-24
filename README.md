@@ -3,7 +3,7 @@
 Slicing design: React + TypeScript + Vite — onboarding flow desain untuk Juicebox.
 
 ## Domain
-- Kamu bisa liat live nya disini https://juicebox-design.vercel.app/ (karena sudah di deploy)
+- Kamu bisa liat live nya disini https://juicebox-design.vercel.app/ (karena sudah di deploy dan jangan lupa di inspect karena ini design nya hanya ada mobile view)
 
 ## Persyaratan
 - Node.js (v16+)
