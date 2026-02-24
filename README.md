@@ -45,3 +45,4 @@ Slicing design: React + TypeScript + Vite — onboarding flow desain untuk Juice
   rm -rf node_modules package-lock.json && npm install
   ```
 - Untuk debugging di VS Code: restart TS server atau restart VS Code setelah instalasi package baru.
+- Ini hanya untuk Mobile View saja, jadi harus inspect lalu pilih layar hp
