@@ -69,7 +69,7 @@ const Register = () => {
                             <h2 className="text-[22px] text-white text-center font-medium mb-12">
                                 Let's start with the basics. Type in your first name.
                             </h2>
-                            <div className="relative mt-96">
+                            <div className="relative mt-60">
                                 <input
                                     {...register("firstName")}
                                     autoFocus
@@ -95,10 +95,10 @@ const Register = () => {
 
                     {step === 2 && (
                         <div className="animate-in fade-in slide-in-from-right-4 duration-500">
-                            <h2 className="text-[22px] text-white text-center font-medium mb-12">
+                            <h2 className="text-[22px] text-white text-center mb-12">
                                 How should we contact you? Type in your email address.
                             </h2>
-                            <div className="relative mt-96">
+                            <div className="relative mt-60">
                                 <input
                                     {...register("email")}
                                     autoFocus
@@ -122,13 +122,13 @@ const Register = () => {
 
                     {step === 3 && (
                         <div className="text-center animate-in zoom-in-95 duration-500 pt-10">
-                            <h2 className="text-[22px] text-white font-medium mb-4 px-4 leading-tight">
+                            <h2 className="text-[19px] text-white mb-4 px-4 leading-tight">
                                 Thanks, {nameValue}! Now, it's time to get a reality check.
                             </h2>
-                            <p className="text-white/40 text-lg mb-20">This will take 2-3 minutes.</p>
+                            <p className="text-white text-[19px] mb-20">This will take 2-3 minutes.</p>
                             <button
                                 type="submit"
-                                className="w-full py-4 bg-white text-black font-bold rounded-2xl active:scale-95 transition-transform">
+                                className="w-full py-4 bg-white text-black rounded-2xl active:scale-95 transition-transform">
                                 Continue
                             </button>
                         </div>
